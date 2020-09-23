@@ -1,0 +1,35 @@
+# Data processing
+pyarrow
+fastparquet
+
+# Plotting
+cufflinks>=0.16
+
+# Jupyter extensions
+jupyter_contrib_nbextensions>=0.5.1
+
+# Time handling
+arrow>=0.12.1
+
+# Jupyter notebooks
+ipython
+jupyter
+jedi
+
+# CLI
+tqdm>=4.23.0
+python-dotenv>=0.9.1
+
+pandas
+numpy
+matplotlib
+arctic
+statsmodels
+sklearn
+
+
+seaborn
+xgboost
+
+tabulate
+chart_studio

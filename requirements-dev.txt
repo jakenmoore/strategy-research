@@ -1,0 +1,20 @@
+#
+# All requirements for development
+#
+
+# Testing
+pytest~=4.3.0
+pytest-xdist~=1.26.0
+
+# Flake8
+flake8>=3.7.7
+flake8-bugbear>=18.8.0
+
+# Code formatting
+black>=19.3b0
+isort>=4.3.15
+
+# Type checking, use mypy-mypyc for much faster CPython version
+mypy>=0.670
+mypy-mypyc>=0.670
+

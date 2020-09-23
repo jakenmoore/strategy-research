@@ -1,0 +1,13 @@
+# OS generated files
+._*
+.AppleDouble
+.DS_Store
+.DS_Store?
+.Spotlight-V100
+.Trashes
+.vscode
+*.DS_Store
+Desktop.ini
+ehthumbs.db
+srecode-map.el
+Thumbs.db
