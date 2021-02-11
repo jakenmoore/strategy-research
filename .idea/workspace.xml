@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0e66435e-0d7e-4d89-a5e3-2dcde013ba5d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/strategies.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.ipynb_checkpoints/bitcoin_arb-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.ipynb_checkpoints/ccxt_example-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.ipynb_checkpoints/flow_trading_research-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.ipynb_checkpoints/strategies-master-2021-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.ipynb_checkpoints/strategies_output-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bitcoin_arb.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ccxt_example.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crypto_option_pricing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crypto_options_market_making_v1.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flow_trading_research.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notes2021" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/research_utilities.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simulator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/strategies-master-2021.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/strategies_output.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/strategy_models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yield_profiles.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/strategies-master-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/strategies-master-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.python-version" beforeDir="false" afterPath="$PROJECT_DIR$/.python-version" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Oil_Event_Study.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitcoin_longer_term.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/bitcoin_longer_term.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/btc.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/btc.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cl1_v2.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_loader.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/master-jake-all.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oil_research.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order_book_research.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/strategies-master.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/strategies-master.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yield_profiles_with_signal.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/yield_profiles_with_signal.ipynb" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1oAAxOACltYUQTVk0RzzbFrZTc9" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0e66435e-0d7e-4d89-a5e3-2dcde013ba5d" name="Default Changelist" comment="" />
+      <created>1612719266537</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1612719266537</updated>
+      <workItem from="1612719269914" duration="1224000" />
+      <workItem from="1612723845261" duration="709000" />
+      <workItem from="1612724578887" duration="3848000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/backtesting" />
+    </ignored-roots>
+  </component>
+</project>

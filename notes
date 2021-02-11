@@ -1,0 +1,101 @@
+- filled on weak or strong side
+- fill pro trend counter trend
+- trend before and after
+- is breakout triggered after the trade? 5 seconds, 10 seconds.
+- what was our place in the order book
+- was there flow in other crosses at the same time?
+- adverse selection indicator per cross/currency and for fx as a whole
+- adverse selection breakout indicator
+- should we skew the 'risk aversion' currencies?
+- should we consider short term positioning?
+- are our fills predictive of the market direction?
+
+- report on our rejected trades
+- are our rejected MM trades on weak or strong side?
+- report on trades we reject
+
+flow diagram
+- mid price
+- weak side strong side
+- spread - not just vol but adverse selection + information gathering
+- inventory management (is this necessary other than simple risk limits?)
+-
+- dealing with adverse flow
+- trades we reject
+- adverse selection indicator in real time (kurtosis of returns, our position, rejections)
+- our trades that get rejected
+- how does rejection link with vol?
+- does rejection mean our spread is too tight?
+- reports of our activity
+    - how have the model predictions been
+    - do we have enough flow to benefit from the models? sample size.
+    - what is our adverse selection looking like?
+- position through the day
+- how long in a position
+- what if position is one way?
+
+
+What is estimate of information in the flow?
+- for Fx - about .2
+
+ASB
+- if yield after 0.1 seconds shows a loss greater than a 1.5 stdev breakout for the
+same time period for both FILLS and CANCELS AND OFI/signals fire AND spread < X then aggress
+- move the weak side by TWO spreads for 5 to 30 seconds.
+
+# ADVERSE SELECTION
+- can the models 'learn' that spread is not paying enough for the directionality and
+volatility of the market?
+
+# To investigate STRATEGIES MASTER
+- add in breakout - 2 standard deviations 5 seconds
+- can we choose between multiple breakouts?
+- how have four signals
+- can we use the inventory code to create a market making sim?
+
+
+TODO
+
+Entry trades
+System goals - 1) pick the strong side via models. 2) Reject latent trades.
+
+To check - quality of our mid market prediction versus Python. Are we flipping out of the top of the book too ofter?
+To check - refresh rate.
+
+To add - Time to fill. Estimate of order flow intensity versus LOB depth.
+To add - look at the spread model.
+
+Reports
+- filled on weak or strong side
+- fill pro trend counter trend
+- trend before and after
+- time to fill
+- is breakout triggered after the trade? 5 seconds, 10 seconds.
+- what was our place in the order book
+- what is the order intensity
+- was there flow in other crosses at the same time?
+- adverse selection indicator per cross/currency and for fx as a whole
+- adverse selection breakout indicator
+- should we skew the 'risk aversion' currencies?
+- should we consider short term positioning?
+
+
+Market making upgrades:
+1) Use cancels.
+Widen the cancelled side after a cancel for 30 seconds.
+Aggress the cancels (upgraded with breakout and with spread limitation).
+
+2) Add inventory system
+Goal is to exit trades after zero to 8 minutes after we get inventory (quicker the better).
+
+Exit trades via:
+1) Passive limit order pinned to the top of the book
+2) When aggressive signals fire (say with spread at 90%ile) - exit with market order.
+
+3) Add Hotspot
+Use one portfolio across two platforms to increase fill rate on entry and exit trades.
+
+
+
+
+pyenv local anaconda3-2019.03

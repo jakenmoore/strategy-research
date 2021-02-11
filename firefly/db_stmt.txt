@@ -1,0 +1,25 @@
+select oi1.trace_id, ot1.timestamp,
+	ot1.What_happened,
+	s.symbol,
+    oi1.Strategy,
+    oi1.quantity as Quantity,
+    ot1.price as OpenPrice, 
+    ot2.price as ClosingPrice, 
+	ROUND(SIGN(oi1.quantity) * (ot2.price - ot1.price)/ot1.price,6) as RealisedReturn,
+	(ot3.bid + ot3.offer) / 2 as openMid,
+    (ot4.bid + ot4.offer) / 2 as closeMid,
+    ot4.order_type,
+    ot4.timestamp closedAt
+FROM kaiseki_prices.ordersandtrades ot1
+join kaiseki_prices.order_info oi1 on oi1.trace_id = ot1.Trace and ot1.order_id = oi1.order_id 
+left outer join kaiseki_prices.order_info oi2 on oi1.trace_id = oi2.trace_id and oi2.closes  = oi1.order_id and oi2.PositionState !=3 
+left outer join kaiseki_prices.ordersandtrades ot2 on ot2.Trace = oi2.trace_id and ot2.order_id = oi2.order_id and ot2.What_happened = 'Trade'
+join kaiseki_prices.ordersandtrades ot3 on ot1.Trace = ot3.Trace and ot1.order_id = ot3.order_id
+left outer join kaiseki_prices.ordersandtrades ot4 on ot2.Trace = ot4.Trace and ot2.order_id = ot4.order_id and ot4.What_happened = 'Order' and (ot4.orderStatus = 'Submitted' or ot4.orderStatus = 'PreSubmitted')
+join kaiseki_prices.Symbols s on ot1.symbol_id  = s.id
+where (ot1.What_happened = 'Trade' or (ot1.What_happened = 'Order' and ot1.orderStatus = 'Submitted' and oi1.PositionState=3))
+and oi1.closes is null
+and ((ot1.What_happened = 'Trade' and ot1.Trace = ot2.Trace)  OR ot1.What_happened = 'Order')
+and ot3.What_happened = 'Order' 
+and ( ot3.orderStatus = 'PreSubmitted' OR ot3.orderStatus = 'Submitted')
+order by ot1.timestamp desc

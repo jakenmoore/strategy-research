@@ -1,0 +1,53 @@
+Bitmex Code
+https://github.com/BitMEX/api-connectors/tree/master/official-ws/python
+
+Mongo
+https://www.w3schools.com/python/python_mongodb_getstarted.asp
+https://api.mongodb.com/python/current/tutorial.html
+https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/
+
+Arctic
+https://arctic.readthedocs.io/en/latest/quickstart/#run-a-mongodb
+
+Trading ideas
+https://medium.com/automation-generation/a-simple-way-to-come-up-with-trading-strategies-using-order-flow-data-36db73d4f4df
+https://medium.com/@eliquinox/order-flow-analysis-of-cryptocurrency-markets-b479a0216ad8
+
+
+
+---------------------------------------
+from arctic import Arctic
+
+feed = Arctic("localhost")
+
+library = feed.get_library("cryptofeed-test")
+
+trades = library.read("trades")
+
+trades
+
+trades.data
+---------------------------------------
+
+
+Mongo -
+
+sudo service mongod start
+mongo # starts the mongodb shell
+
+show dbs
+use arctic
+
+show collections
+
+
+# monitoring Jake XPS 15
+https://cloud.mongodb.com/freemonitoring/cluster/DLNRKX3NTPHGGNBW64KARUEPX52TM2OT
+
+# monitoring market-making server
+https://cloud.mongodb.com/freemonitoring/cluster/JKWZBAIOAWL2T6KNIHXHCQTJU7OSTRNE
+
+
+
+# Market making Notes
+Force limit orders

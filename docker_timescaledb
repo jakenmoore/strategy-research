@@ -1,0 +1,6 @@
+docker images
+docker ps
+docker exec -it timescaledb bash
+psql -U postgres
+\l
+create database <name>;
